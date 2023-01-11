@@ -1,0 +1,117 @@
+
+.footer {
+    position: absolute;
+    width: 1700px;
+    height: 300px;
+    left: 10px;
+    top: 1500px;
+    background: #42A8C3;
+}
+
+.footer h1 {
+    position: absolute;
+    width: 132px;
+    height: 42px;
+    left: 137px;
+    top: 106px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: #42A7C3;
+}
+
+.footer-isi {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+    background: #42A7C3;
+    position: absolute;
+    width: 265px;
+    height: 22px;
+    left: 485px;
+    top: 109px;
+}
+
+.footer-menu1 {
+    width: 100px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #42A7C3;
+}
+
+.footer-menu2 {
+    width: 100px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: #42A7C3;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.footer-menu3 {
+    width: 100px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: #42A7C3;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer-garis {
+    position: absolute;
+    width: 1166.4px;
+    height: 0px;
+    left: 136.8px;
+    top: 237px;
+
+    border: 1px solid #BDCDE8;
+}
+
+.footer p {
+    position: absolute;
+    width: 308.7px;
+    height: 44px;
+    left: 566.1px;
+    top: 276px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    background: #42A7C3;
+    color: #FFFFFF;
+
+}

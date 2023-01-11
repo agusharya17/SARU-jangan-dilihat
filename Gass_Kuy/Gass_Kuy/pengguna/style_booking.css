@@ -1,0 +1,277 @@
+/*untuk mengatur navbar*/
+.div1-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 10px;
+    position: absolute;
+    width: 1440px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+}
+/*mengatur tag h1 dalam container*/
+.h1-head {
+    width: 149px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    display: flex;
+    align-items: left;
+    color: #42A7C3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/*untuk mengatur isi dalam navbar*/
+.container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 196px;
+    width: 1280px;
+    height: 50px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/*untuk membuat div menu*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+    width: 265px;
+    height: 22px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/*untuk mengatur button a home*/
+.menu1 {
+    width: 100px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/*untuk mengatur button a my_booking*/
+.menu2 {
+    width: 85px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #ED760D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/*UNTUK MEMBUAT DIV PROFILE*/
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 140%;
+    padding: 12px 32px;
+    left: 500px;
+    gap: 8px;
+    width: 180px;
+    height: 56px;
+    border-radius: 8px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+/*UNTUK MENGATUR GAMBAR PROFILE*/
+.img1-profile {
+    width: 32px;
+    height: 32px;
+    line-height: 140%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/*UNTUK MENGATUR BUTTON a profile*/
+.profile-a {
+    width: 76px;
+    height: 22px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #333333;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/*MENGATUR ISI BODY SECARA KESELURUHAN*/
+.div-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start;
+    padding: 0px; */
+    position: absolute;
+    width: 15000px;
+    height: 600px;
+    left: 80px;
+    /* bottom: 50px; */
+    top: 120px;
+    /* border-radius: 8px; */
+}
+.div1-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 15000px;
+    height: 1000px;
+    left: 80px;
+    top: 500px;
+}
+/*MENGATUR FOOTER*/
+.footer {
+    position: absolute;
+    width: 1500px;
+    height: 300px;
+    left: 10px;
+    top: 1000px;
+    background: #42A8C3;
+}
+/*MENGATUR TAG H1 DALAM FOOTER*/
+.footer h1 {
+    position: absolute;
+    width: 132px;
+    height: 42px;
+    left: 137px;
+    top: 106px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: #42A7C3;
+}
+/*MENGATUR ISI FOOTER UNTUK MENU*/
+.footer-isi {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+    background: #42A7C3;
+    position: absolute;
+    width: 265px;
+    height: 22px;
+    left: 485px;
+    top: 109px;
+}
+/*MENGATUR ISI FOOTER UNTUK MENU*/
+.footer-menu1 {
+    width: 100px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #42A7C3;
+}
+/*MENGATUR ISI FOOTER UNTUK MENU */
+.footer-menu2 {
+    width: 100px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: #42A7C3;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/*MENGATUR ISI FOOTER UNTUK MENU*/
+.footer-menu3 {
+    width: 100px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: #42A7C3;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/*MENGATUR ISI FOOTER UNTUK GARIS PEMBATAS*/
+.footer-garis {
+    position: absolute;
+    width: 1166.4px;
+    height: 0px;
+    left: 136.8px;
+    top: 237px;
+
+    border: 1px solid #BDCDE8;
+}
+/*MENGATUR ISI FOOTER UNTUK TAG P  copyright*/
+.footer p {
+    position: absolute;
+    width: 308.7px;
+    height: 44px;
+    left: 566.1px;
+    top: 276px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    background: #42A7C3;
+    color: #FFFFFF;
+
+}

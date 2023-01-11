@@ -1,0 +1,217 @@
+/*MENGATUR SELURUH TAMPILAN WEBSITE*/
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 1440px;
+    height: 1000px;
+    background: #FFFFFF;
+}
+/*MENGATUR DIV 1 HEAD*/
+.div1-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 10px;
+    position: absolute;
+    width: 1440px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+}
+/*MENGATUR ISI DIV 1 HEAD*/
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 196px;
+    width: 1280px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/*MENGATUR DIV 1 BODY*/
+.div1-body {
+    position: absolute;
+    width: 1440px;
+    height: 912px;
+    left: 0px;
+    top: 112px;
+}
+/*MENGATUR ISI DIV 1 BODY*/
+.div3-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 865px;
+    top: 110px;
+}
+/*MENGATUR H1 ISI DIV 1 BODY*/
+.h1-body {
+    width: 440px;
+    height: 62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 62px;
+    letter-spacing: -2px;
+    color: #2B2B2B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/*MENGATUR ISI DIV 3 BODY*/
+.div4-body {
+    width: 449px;
+    height: 100px;
+    flex: none;
+}
+/*MENGATUR ISI DIV 4 BODY, TAG UL*/
+.div4-body ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 449px;
+    height: 96px;
+    left: 0px;
+    top: 439px;
+    border-radius: 30px;
+}
+/*MENGATUR ISI DIV 4 BODY, TAG LABEL*/
+.div4-body label {
+    width: 68px;
+    height: 26px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #94A3B8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/*MENGATUR ISI DIV 4 BODY, TAG LI*/
+.div4-body li {
+    list-style-type: none;
+}
+/*MENGATUR ISI DIV 4 BODY, TAG FORM UNTUK LOGIN*/
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50em;
+}
+/*MENGATUR ISI DIV 4 BODY, TAG A UNTUK REGISTRASI*/
+.form-login a {
+    position: absolute;
+    width: 444px;
+    height: 22px;
+    left: 0px;
+    top: 180px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #64748B;
+}
+/*MENGATUR ISI DIV 1 HEAD, TAG H1 UNTUK LOGO KUYJALAN*/
+.h1-head {
+    width: 149px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    display: flex;
+    align-items: left;
+    color: #42A7C3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/*MENGATUR ISI DIV 1 BODY, TAG IMG UNTUK MENAMPILKAN GAMBAR PADA
+BAGIAN SEBELAH KIRI*/
+.img1-body {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 171.9px;
+    top: 110px;
+}
+/*MENGATUR ISI DIV 4 BODY, TAG FORM UNTUK LOGIN
+UNTUK INPUTAN USERNAME*/
+.input1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 26px 22px 17px;
+    gap: 13px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+/*MENGATUR ISI DIV 4 BODY, TAG FORM UNTUK LOGIN
+UNTUK INPUTAN PASSWORD*/
+.input2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 26px 22px 17px;
+    gap: 13px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+/*MENGATUR ISI DIV 4 BODY, TAG FORM UNTUK LOGIN
+UNTUK BUTTON LOGIN*/
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 2px;
+    position: absolute;
+    height: 40px;
+    width: 400px;
+    top: 140px;
+    background: #FA8443;
+    border: #FA8443;
+    border-radius: 10px;
+    cursor: pointer;
+}
